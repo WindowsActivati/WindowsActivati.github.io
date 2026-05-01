@@ -1,0 +1,15 @@
+baseURL = 'https://WindowsActivati.github.io/'
+languageCode = 'zh-CN'
+locale = 'zh-CN'
+title = '我的博客'
+theme = "reimu"
+
+# 让主题正常渲染
+[markup.goldmark.renderer]
+unsafe = true
+
+# 分页
+[pagination]
+pagerSize = 10
+[params]
+mainSections = ["posts"]
