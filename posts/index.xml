@@ -3,12 +3,58 @@
         
           
         
-        <hr><p>本文2026-05-01首发于<a href='https://windowsactivati.github.io/'>我的博客</a>，最后修改于2026-05-01</p>]]></description></item><item><title>这是一篇测试文章</title><link>https://windowsactivati.github.io/posts/%E6%96%87%E7%AB%A0%E5%90%8D/</link><pubDate>Thu, 01 May 2025 12:00:00 +0800</pubDate><guid>https://windowsactivati.github.io/posts/%E6%96%87%E7%AB%A0%E5%90%8D/</guid><description>
-<![CDATA[<h1>这是一篇测试文章</h1><p>作者：WindowsActivati（<no value>）</p>
+        <hr><p>本文2026-05-01首发于<a href='https://windowsactivati.github.io/'>我的博客</a>，最后修改于2026-05-01</p>]]></description></item><item><title>C++手册</title><link>https://windowsactivati.github.io/posts/%E6%96%87%E7%AB%A0%E5%90%8D/</link><pubDate>Thu, 01 May 2025 12:00:00 +0800</pubDate><guid>https://windowsactivati.github.io/posts/%E6%96%87%E7%AB%A0%E5%90%8D/</guid><description>
+<![CDATA[<h1>C++手册</h1><p>作者：WindowsActivati（<no value>）</p>
         
-          <h1 id="我是内容">
-<a class="header-anchor" href="#%e6%88%91%e6%98%af%e5%86%85%e5%ae%b9"></a>
-我是内容
-</h1><p>主页一定能看到我！</p>
+          <p>C++ 从入门到精通：现代C++核心特性、最佳实践与实战指南
+C++ 作为一门诞生于1979年的经典编程语言，历经四十余年迭代，依然是<strong>高性能计算、游戏开发、嵌入式系统、操作系统、后端服务</strong>等领域的首选语言。从Windows/Linux内核，到Unreal Engine游戏引擎，再到自动驾驶、AI推理框架，C++凭借<strong>极致性能、底层操控能力、零成本抽象</strong>三大核心优势，稳居编程语言生态核心地位。
+本文将带你从零到一掌握现代C++（C++11及以上标准），避开传统C++的晦涩陷阱，聚焦工程实践中最实用的核心知识、编程范式与最佳实践。
+一、为什么我们依然需要学习C++？
+在Python、Java、Go等高级语言普及的今天，C++的不可替代性体现在三个维度：</p>
+<ol>
+<li>性能天花板：C++编译为原生机器码，无虚拟机开销，是对CPU/内存敏感场景的唯一选择；</li>
+<li>底层操控+高层抽象：既可以直接操作内存地址、硬件寄存器，又能通过面向对象、泛型实现复杂业务封装，做到「零成本抽象」；</li>
+<li>生态无可替代：全球90%的高性能系统、游戏引擎、嵌入式固件均基于C++开发，职业发展天花板极高。
+二、C++核心基础：快速搭建知识骨架</li>
+<li>编译与运行：C++的执行流程
+C++是<strong>编译型语言</strong>，代码需要经过「预处理→编译→汇编→链接」四个步骤生成可执行文件，区别于Python等解释型语言。
+基础Hello World示例：
+// 引入输入输出流头文件
+#include <iostream></li>
+</ol>
+<p>// 程序入口函数：所有C++程序从main函数开始执行
+int main() {
+// 向控制台输出字符串
+std::cout &laquo; &ldquo;Hello, Modern C++!&rdquo; &laquo; std::endl;
+// 返回0表示程序正常退出
+return 0;
+}
+编译命令（Linux/Mac）：
+g++ main.cpp -o main  # 编译
+./main                # 运行
+2. 变量、数据类型与类型安全
+C++是<strong>强类型语言</strong>，变量必须先声明类型再使用，这是程序稳定性的基础。
+类型分类
+常用类型
+说明
+基本数值类型
+int、float、double、char
+整数、浮点数、字符
+布尔类型
+bool
+取值true/false
+无类型
+void
+用于无返回值函数、空指针
+现代类型
+auto
+编译器自动推导类型（C++11）
+现代C++写法：用<code>auto</code>简化代码，避免冗余类型声明
+int a = 10;
+double b = 3.14;
+auto c = 20;    // 编译器自动推导为int类型
+auto d = 5.20;  // 编译器自动推导为double类型
+3. 指针与引用：C++的核心灵魂
+指针和引用是C++实现底层内存操控的核心，也是新手最容易困惑的知识点：</p>
         
         <hr><p>本文2025-05-01首发于<a href='https://windowsactivati.github.io/'>我的博客</a>，最后修改于2025-05-01</p>]]></description></item></channel></rss>
