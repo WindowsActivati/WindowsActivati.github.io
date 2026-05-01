@@ -1,4 +1,4 @@
-baseURL = 'https://WindowsActivati.github.io/'
+baseURL = 'https://windowsactivati.github.io/'
 languageCode = 'zh-CN'
 locale = 'zh-CN'
 title = '我的博客'
